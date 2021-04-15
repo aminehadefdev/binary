@@ -12,4 +12,4 @@ const converter = {
         return cdtb.convert();
     }
 };
-module.exports = converter;
+exports.default = converter;
