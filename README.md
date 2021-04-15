@@ -13,7 +13,7 @@ npm i binarysuperconvert
 ### javascript
 
 ```javascript
-var binarysuperconvert = require("binarysuperconvert") 
+var binarysuperconvert = require("binarysuperconvert").default
 binarysuperconvert.ConvertedBinaryToDecimal('101010')// return Object {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
 binarysuperconvert.ConvertedDecimalToBinary(42)// return Object {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
 ```
