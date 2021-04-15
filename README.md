@@ -19,7 +19,7 @@ binarysuperconvert.ConvertedDecimalToBinary(42)// return Object {decimal: 42, NB
 ```
 
 ### CLI
-####Installation CLI global
+#### Installation CLI global
 if you need to install the binarysuperconvert cli in global
 ```bash
 npm i -g binarysuperconvert
