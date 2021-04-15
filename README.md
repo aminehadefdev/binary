@@ -22,7 +22,7 @@ binarysuperconvert.ConvertedDecimalToBinary(42)// return Object {decimal: 42, NB
 ```bash
 binary --version // output: version 1.0.9
 binary -cdtb 42 //  output:  {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
-binary -cbtd 42 //  output:  {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
+binary -cbtd 101010 //  output:  {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
 ```
 
 
