@@ -4,7 +4,6 @@ binarysuperconvert is a JavaScript library to convert a binary to decimal or a d
 
 ## Installation
 
-
 ```bash
 npm i binarysuperconvert
 ```
