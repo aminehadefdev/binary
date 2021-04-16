@@ -14,8 +14,60 @@ npm i binarysuperconvert
 
 ```javascript
 var binarysuperconvert = require("binarysuperconvert").default
-binarysuperconvert.ConvertedBinaryToDecimal('101010')// return Object {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
-binarysuperconvert.ConvertedDecimalToBinary(42)// return Object {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
+console.log(binarysuperconvert.ConvertedBinaryToDecimal('101010'))// output Object {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
+console.log(binarysuperconvert.ConvertedDecimalToBinary(42))// output Object {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
+console.log(binarysuperconvert.ConvertedStringToBinary("any string"))/*output Array [
+  {
+    char: [ 'a' ],
+    ascii: 97,
+    binary: { decimal: 97, NBbyts: 7, arrByts: [Array], binary: '1100001' }
+  },
+  {
+    char: [ 'n' ],
+    ascii: 110,
+    binary: { decimal: 110, NBbyts: 7, arrByts: [Array], binary: '1101110' }
+  },
+  {
+    char: [ 'y' ],
+    ascii: 121,
+    binary: { decimal: 121, NBbyts: 7, arrByts: [Array], binary: '1111001' }
+  },
+  {
+    char: [ ' ' ],
+    ascii: 32,
+    binary: { decimal: 32, NBbyts: 6, arrByts: [Array], binary: '100000' }
+  },
+  {
+    char: [ 's' ],
+    ascii: 115,
+    binary: { decimal: 115, NBbyts: 7, arrByts: [Array], binary: '1110011' }
+  },
+  {
+    char: [ 't' ],
+    ascii: 116,
+    binary: { decimal: 116, NBbyts: 7, arrByts: [Array], binary: '1110100' }
+  },
+  {
+    char: [ 'r' ],
+    ascii: 114,
+    binary: { decimal: 114, NBbyts: 7, arrByts: [Array], binary: '1110010' }
+  },
+  {
+    char: [ 'i' ],
+    ascii: 105,
+    binary: { decimal: 105, NBbyts: 7, arrByts: [Array], binary: '1101001' }
+  },
+  {
+    char: [ 'n' ],
+    ascii: 110,
+    binary: { decimal: 110, NBbyts: 7, arrByts: [Array], binary: '1101110' }
+  },
+  {
+    char: [ 'g' ],
+    ascii: 103,
+    binary: { decimal: 103, NBbyts: 7, arrByts: [Array], binary: '1100111' }
+  }
+]*/
 ```
 
 ### CLI
@@ -26,8 +78,61 @@ npm i -g binarysuperconvert
 ```
 ```bash
 binary --version // output: version 1.0.9
+binary --help //
 binary -cdtb 42 //  output:  {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
 binary -cbtd 101010 //  output:  {decimal: 42, NBbyts: 6, arrByts: [32, 16, 8, 4, 2, 1], binary: "101010"}
+binary  -cstb \"any string\" // output: [
+  {
+    char: [ 'a' ],
+    ascii: 97,
+    binary: { decimal: 97, NBbyts: 7, arrByts: [Array], binary: '1100001' }
+  },
+  {
+    char: [ 'n' ],
+    ascii: 110,
+    binary: { decimal: 110, NBbyts: 7, arrByts: [Array], binary: '1101110' }
+  },
+  {
+    char: [ 'y' ],
+    ascii: 121,
+    binary: { decimal: 121, NBbyts: 7, arrByts: [Array], binary: '1111001' }
+  },
+  {
+    char: [ ' ' ],
+    ascii: 32,
+    binary: { decimal: 32, NBbyts: 6, arrByts: [Array], binary: '100000' }
+  },
+  {
+    char: [ 's' ],
+    ascii: 115,
+    binary: { decimal: 115, NBbyts: 7, arrByts: [Array], binary: '1110011' }
+  },
+  {
+    char: [ 't' ],
+    ascii: 116,
+    binary: { decimal: 116, NBbyts: 7, arrByts: [Array], binary: '1110100' }
+  },
+  {
+    char: [ 'r' ],
+    ascii: 114,
+    binary: { decimal: 114, NBbyts: 7, arrByts: [Array], binary: '1110010' }
+  },
+  {
+    char: [ 'i' ],
+    ascii: 105,
+    binary: { decimal: 105, NBbyts: 7, arrByts: [Array], binary: '1101001' }
+  },
+  {
+    char: [ 'n' ],
+    ascii: 110,
+    binary: { decimal: 110, NBbyts: 7, arrByts: [Array], binary: '1101110' }
+  },
+  {
+    char: [ 'g' ],
+    ascii: 103,
+    binary: { decimal: 103, NBbyts: 7, arrByts: [Array], binary: '1100111' }
+  }
+]
 ```
 
 
