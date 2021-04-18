@@ -141,7 +141,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-Copyright (C) <2021> Amine HADEF du droit d'auteur
+Copyright (C) 2021 Amine HADEF
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
