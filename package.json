@@ -1,6 +1,6 @@
 {
   "name": "binarysuperconvert",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -12,7 +12,7 @@
     "binary": "./bin/cli.js"
   },
   "author": "amine hadef",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aminehadefdev/binary.git"
