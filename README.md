@@ -1,3 +1,11 @@
+# help
+hi 👋🏼 my name is Amine i created binarysuperconvert a program open sources made in javascript which converts a decimal to binary or vice versa.  I would like to be able to continue to improve my creation unfortunately my computer is dying and I have not enough money to pay me another one if you could help me that would be nice.
+
+
+if you can help me here is my tipeee 😄
+https://fr.tipeee.com/binarysuperconvert
+
+
 binarysuperconvert
 
 binarysuperconvert is a JavaScript library to convert a binary to decimal or a decimal to binary.
